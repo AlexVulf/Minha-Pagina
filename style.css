@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Serif', serif;
-    
+
 
 }
-    
-.center{
+
+.center {
     max-width: 1100px;
     margin: auto;
     padding: 0 2%;
@@ -15,37 +15,41 @@
     flex-wrap: wrap;
 }
 
-header{
+header {
     background-color: rgb(213, 208, 230);
     padding: auto;
     border-bottom: 1px solid rgb(178, 172, 199);
     position: fixed;
 
 }
-.buttonMenu{
+
+.buttonMenu {
     border: 0;
     border-radius: 4px;
     padding: 10px;
-    background-color:rgb(213, 208, 230);
+    background-color: rgb(213, 208, 230);
     margin: auto;
     cursor: pointer;
 }
-.buttonMenu i{
+
+.buttonMenu i {
     color: black;
     font-size: 30px;
 }
-.overlay{
-    width:0%;
+
+.overlay {
+    width: 0%;
     height: 100%;
-    background-color:rgba(213, 208, 230, 0.9);
+    background-color: rgba(213, 208, 230, 0.9);
     z-index: 9;
     position: fixed;
     left: 0;
     top: 0;
     overflow-x: hidden;
     transition: all 0.5s;
-    
+
 }
+
 .menu {
     position: relative;
     top: 25%;
@@ -53,20 +57,24 @@ header{
     text-align: center;
     margin-top: 30px;
 }
-.menu a{
+
+.menu a {
     padding: 8px;
     text-decoration: none;
     color: black;
     display: block;
     font-size: 34px;
     transition: 0.3s;
-    
+
     margin-right: 20px;
 }
-.menu a:hover, .overlay a:focus{
+
+.menu a:hover,
+.overlay a:focus {
     color: rgb(255, 255, 255);
 }
-.closeMenu{
+
+.closeMenu {
     position: absolute;
     top: 25px;
     right: 45px;
@@ -74,89 +82,128 @@ header{
     text-decoration: none;
     color: black;
 }
-.closeMenu:hover{
+
+.closeMenu:hover {
     color: rgb(255, 255, 255);
 }
-@media screen and (max-height: 450px){
-    .menu a {font-size: 20px;}
-    .menu, .closeMenu{
+
+@media screen and (max-height: 450px) {
+    .menu a {
+        font-size: 20px;
+    }
+
+    .menu,
+    .closeMenu {
         font-size: 40px;
         top: 15px;
         right: 35px;
     }
 
 }
-    
-section.main{
+
+section.main {
     background-image: url(Imagens/fundo.jpg);
     padding: 100px 0;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgb(213, 208, 230);    
+    background-color: rgb(213, 208, 230);
 }
 
-.main__foto{
+.main__foto {
     width: 100%;
     margin: auto;
     text-align: center;
 }
-.main__foto h1{
+
+.main__foto h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    }
-
-.main__foto h2{
-color: rgb(0, 0, 0);
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-font-size: 30px;
 }
-.sobremim{
+
+.main__foto h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.sobremim {
     display: flex;
     margin-right: 3%;
     margin-left: 3%;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-.formacao{
+
+.formacao {
     margin: auto;
     width: 100%;
     margin: 0px 0;
     text-align: center;
 }
-.formacao h2{
+
+.formacao h2 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
-.formacao p{
+
+.formacao p {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    
+
 }
-.certificado{
+
+.certificado {
     margin: auto;
     width: 100%;
     margin: 0px 0;
     text-align: center;
 }
-.certificado h2{
+
+.certificado h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+
+.certificado h2 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
-.certificado p{
+
+.certificado p {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+/*Formatação da pagina do certificado*/
+.title h1 {
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.fundo {
+    background-image: url(Imagens/fundo.jpg);
+    padding: 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(213, 208, 230);
 }
