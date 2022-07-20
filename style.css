@@ -189,21 +189,3 @@ section.main {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-/*Formatação da pagina do certificado*/
-.title h1 {
-    padding: 30px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-}
-
-.fundo {
-    background-image: url(Imagens/fundo.jpg);
-    padding: 0px;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(213, 208, 230);
-}
