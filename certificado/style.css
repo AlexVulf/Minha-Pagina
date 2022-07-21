@@ -129,36 +129,6 @@
     cursor: pointer;
 }
 
-
-@media(max-width: 768px){
-    .certificadosimg{
-        grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 120px;
-    }
-    .certificadosimg h1{
-        left: 0;
-        bottom: 0;
-        width: 100px;
-        color: rgb(0, 0, 0);
-        padding: 1px;
-        font-size: 12px;
-        text-align: start;
-    }
-    .img{
-        cursor: pointer;
-        height: 100px;
-        width: auto;
-    }
-    .title h1 {
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
-        text-align: center;
-    }
-}
-
 /*janela modal */
 #modal_img{
     width: 55vw;
