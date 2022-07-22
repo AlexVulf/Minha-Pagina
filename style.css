@@ -189,6 +189,34 @@ section.main {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+.trajetoriaProfissional {
+    margin-top: 20px;
+    width: 100%;
+    margin: 0px 0;
+    text-align: center;
+}
+
+.trajetoriaProfissional h2 {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.trajetoriaProfissional h3 {
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.trajetoriaProfissional p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
 /*Formatação da pagina do certificadodiploma*/
 .title h1 {
     padding: 60px;
@@ -217,14 +245,15 @@ section.main {
 
 .img{
     margin: 25px;
-    width: 350px;
+    width: 280px;
     height: 140px;
     overflow: hidden;
 }
 .cer_img{
-    height: 80%;
+    height: 60%;
     cursor: pointer;
 }
+
 
 /*formatação pagina contato*/
 .contato{
